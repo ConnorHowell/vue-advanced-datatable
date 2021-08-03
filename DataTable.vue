@@ -72,7 +72,7 @@
                     </tr>
                 </tbody>
                 <tbody>
-                    <tr v-show="!results.length">
+                    <tr v-show="!results.length && showEmpty">
                         <td :colspan="columns.length" class="text-center text-muted">
                             <em>There is no data to display...</em>
                         </td>
